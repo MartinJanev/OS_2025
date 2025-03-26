@@ -1,0 +1,27 @@
+mkdir results
+
+touch results/OS1.txt results/OS2.txt
+
+cat > results/OS1.txt
+
+cat > results/OS2.txt
+
+cat results/OS1.txt
+
+cat results/OS2.txt
+
+cat results/OS1.txt results/OS2.txt > total.txt
+
+cat results/OS1.txt results/OS2.txt > total.txt
+
+mkdir results/results_2023
+
+mv total.txt results/results_2023/
+
+wc results/results_2023/total.txt
+
+grep '^22' results/results_2023/total.txt
+
+awk '($1 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt
+
+grep "14\.03\.2024.*in_progress" results/results_2023/total.txt | wc -l

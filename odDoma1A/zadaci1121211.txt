@@ -1,0 +1,72 @@
+clear
+cat results/OS1.txt
+cat results/OS2.txt
+cat results/OS1.txt results/
+cat results/OS1.txt results/OS2.txt
+clear
+history
+history > 223.txt
+awk '{$1=""; print substr($0, 2)}' 223.txt > zadaci1.txt
+historu
+history
+clear
+ls -;
+ls -l
+cd results/
+cd ..
+cat results/OS1.txt results/OS2.txt
+cat results/OS1.txt results/OS2.txt
+nano results/OS1.txt
+nano results/OS2.txt
+nano results/OS2.txt
+cat results/OS1.txt results/OS2.txt
+cat results/OS1.txt results/OS2.txt > total.txt
+cat total.txt
+clear
+history
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+mv total.txt results/results_2023/
+cd results/
+mkdir results_2023
+cd ..
+mv total.txt results/results_2023/
+wc results/results_2023/total.txt
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+clear
+cat results/results_2023/total.txt
+grep '\.2022' results/results_2023/total.txt
+nano results/results_2023/total.txt
+grep '^22' results/results_2023/total.txt
+awk '$2 ~ /^23/ && $4 > 50 {print $1, $2, $4;}' results/results_2023/total.txt
+awk '($2 ~ /^23/) && ($4 > 50) {print $1, $2, $4;}' results/results_2023/total.txt
+nano results/results_2023/total.txt
+awk '($2 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt
+awk '($1 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+grep "14\.03\.2024.*in_progress" results/results_2023/total.txt
+grep "14\.03\.2024.*in_progress" results/results_2023/total.txt | wc -l
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+nano skripta.sh
+nano skripta.sh
+chmod +x skripta.sh
+./skripta.sh
+nano skripta.sh
+./skripta.sh
+clear
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+ls -l
+rm skripta.sh
+clear
+touch script.sh
+nano script.sh
+chmod +x script.sh
+./script.sh 5 7 15 8 22 6
+nano script.sh
+nano script.sh
+./script.sh 5 7 15 8 22 6
+history > hist.txt

@@ -1,0 +1,6 @@
+
+nano zad3.sh
+chmod +x zad3.sh
+./zad3.sh
+./zad3.sh kod.txt
+cat kod.txt

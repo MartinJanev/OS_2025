@@ -1,0 +1,17 @@
+mkdir results
+touch results/OS1.txt results/OS2.txt
+nano results/OS1.txt
+nano results/OS2.txt
+cd results/
+cat OS1.txt
+cat OS2.txt
+cat OS1.txt OS2.txt
+cat OS1.txt OS2.txt > total.txt
+mkdir results_2023
+mv total.txt results_2023/
+wc results_2023/total.txt
+cat results_2023/total.txt
+grep '^23' results_2023/total.txt
+awk '($1 ~ /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt
+awk '($4 == "groupA" ) && ($5 == "submitted") {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt | wc -l
+

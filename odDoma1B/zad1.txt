@@ -1,0 +1,14 @@
+mkdir directory001
+touch directory001/file123
+man cat
+clear
+ls -l
+chmod 660 directory001/file123
+ls -l directory001/
+clear
+chmod ug=rw,o= directory001/file123
+ls -l directory001/
+who
+mkdir directory002/
+mv directory001/file123 directory002/file234
+rm -r directory001/

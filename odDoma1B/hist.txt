@@ -1,0 +1,500 @@
+    2  git log --oneline --graph --all
+    3  git checkout
+    4  git branch
+    5  git checkout master 
+    6  git branch
+    7  git pull
+    8  git checkout 8-mark-a-task-as-completed-by-name 
+    9  nano SI2025Lab1Main.java 
+   10  nano SI2025Lab1Main.java 
+   11  git add .
+   12  git commit -m "Implement task 8"
+   13  git push -u origin master
+   14  git push -u origin 8-mark-a-task-as-completed-by-name  
+   15  history
+   16  git checkout 9-mark-all-tasks-in-a-category-as-completed 
+   17  [200~git add .
+   18  git commit -m
+   19  git commit -m "Implement task 9"
+   20  git push -u origin 9-mark-all-tasks-in-a-category-as-completed 
+   21  cd D:
+   22  cd MARTIN/ФАКУЛТЕТ/2\ година/4\ семестар/СИ/SI_2025_lab1_236040/
+   23  git init
+   24  history
+   25  clear
+   26  git remote add origin https://github.com/MartinJanev/SI_2025_lab1_236040.git
+   27  git branch -M master
+   28  clear
+   29  nano README.md
+   30  git add .
+   31  git commit -m "Initial commit"
+   32  ls -l
+   33  git add .
+   34  git commit -m "Add starter coed"
+   35  git reset --soft HEAD^
+   36  git log
+   37  ls
+   38  git add .
+   39  git commit -m "Add starter code"
+   40  git push -u origin master
+   41  git fetch origin
+   42  git git checkout 7-count-tasks-per-category
+   43  git checkout 7-count-tasks-per-category
+   44  git add .
+   45  git commit -m "Implement task 7"
+   46  git push -u origin 7-count-tasks-per-category
+   47  git checkout 8-mark-a-task-as-completed-by-name 
+   48  git add .
+   49  git commit -m "Implement task 8"
+   50  git push -u origin 8-mark-a-task-as-completed-by-name 
+   51  git checkout 9-mark-all-tasks-in-a-category-as-completed 
+   52  git add .
+   53  git commit -m "Implement task 9"
+   54  git push -u origin 9-mark-all-tasks-in-a-category-as-completed 
+   55  git checkout master 
+   56  git pull origin master
+   57  git merge 8-mark-a-task-as-completed-by-name 
+   58  git add .
+   59  git commit -m "Merge branch 8-mark-a-task-completed-by-name"
+   60  git push -u origin master 
+   61  git log --oneline --graph --all
+   62  git log --oneline --graph --all > logs.txt
+   63  history
+   64  git remote -v
+   65  ls -l
+   66  git log --oneline -graph -all
+   67  git log --oneline --graph --all
+   68  cleat
+   69  clear
+   70  git log --oneline --graph --all
+   71  git log --oneline --graph --all
+   72  clear
+   73  git status
+   74  git add .
+   75  git status 
+   76  git commit -m "Final commit"
+   77  git push -u origin master 
+   78  cd ..
+   79  git clone https://github.com/MartinJanev/SI_2025_lab1_236040.git
+   80  git clone https://github.com/MartinJanev/SI_2025_lab1_151020.git
+   81  cd SI_2025_lab1_
+   82  cd SI_2025_lab1_151020/
+   83  ls -l
+   84  clear
+   85  touch 236040.txt
+   86  "Martin Janev" > 236040.txt 
+   87  echo "Martin Janev" > 236040.txt 
+   88  nano 236040.txt 
+   89  git add .
+   90  git commit -m "Add file"
+   91  git push -u origin master
+   92  clear
+   93  mkdir directory1 directory
+   94  touch directory1/file123
+   95  man ls
+   96  ls -l
+   97  chmod ug=rx, o= directory1/file123 
+   98  chmod u=rx,g=rx, o= directory1/file123 
+   99  chmod --help
+  100  chmod u=rx,g=rx,o= directory1/file123
+  101  ls -l
+  102  cd directory1/file123 
+  103  cd directory1/
+  104  ls -l
+  105  mkdir directory1 directory2
+  106  touch directory1/file123
+  107  man ls
+  108  chmod u=rx,g=rx,o= directory1/file123 
+  109  cd directory1/
+  110  ls -l
+  111  clear
+  112  cd ..
+  113  chmod 550 directory1/file123 
+  114  ls -l
+  115  ls -l directory1/
+  116  clear
+  117  who
+  118  mv directory1/file123 directory2/file234
+  119  rm -r directory1
+  120  ls -l
+  121  clear
+  122  history
+  123  history > zad1.tct
+  124  history > zad1.txt
+  125  cd ..
+  126  ls -l
+  127  awk '{print;}' zad1.txt 
+  128  awk '{print $2;}' zad1.txt 
+  129  awk '{print $2;}' zad1.txt > zad1.txt
+  130  awk '{print $2;}' zad1.txt > zad1.txt
+  131  awk '{print $2;}' zad1.txt 
+  132  history > zad1.txt
+  133  awk '{print $2;}' zad1.txt 
+  134  awk '{print $2;}' zad1.txt > zad2.txt
+  135  history
+  136  history > zad3.txt
+  137  awk '{$1=""; print substr($0, 2)}' zad1.txt
+  138  awk '{$1=""; print substr($0, 2)}' zad1.txt > zadaci.txt
+  139  history
+  140  awk '{$1=""; print substr($0, 2)}' zad1.txt > zadaci.txt
+  141  awk '{$1=""; print substr($0, 2)}' zadaci.txt > zadaci1.txt
+  142  history
+  143  history > zadaci.txt
+  144  awk '{$1=""; print substr($0, 2)}' zadaci.txt > zadaci1.txt
+  145  history > zadaci.txt
+  146  awk '{$1=""; print substr($0, 2)}' zadaci.txt > zadaci1.txt
+  147  clear
+  148  cat results/OS1.txt 
+  149  cat results/OS2.txt 
+  150  cat results/OS1.txt results/
+  151  cat results/OS1.txt results/OS2.txt 
+  152  clear
+  153  history
+  154  history > 223.txt
+  155  awk '{$1=""; print substr($0, 2)}' 223.txt > zadaci1.txt
+  156  historu
+  157  history
+  158  clear
+  159  ls -;
+  160  ls -l
+  161  cd results/
+  162  cd ..
+  163  cat results/OS1.txt results/OS2.txt 
+  164  cat results/OS1.txt results/OS2.txt 
+  165  nano results/OS1.txt 
+  166  nano results/OS2.txt 
+  167  nano results/OS2.txt 
+  168  cat results/OS1.txt results/OS2.txt 
+  169  cat results/OS1.txt results/OS2.txt > total.txt
+  170  cat total.txt 
+  171  clear
+  172  history
+  173  history > hist.txt
+  174  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  175  mv total.txt results/results_2023/
+  176  cd results/
+  177  mkdir results_2023
+  178  cd ..
+  179  mv total.txt results/results_2023/
+  180  wc results/results_2023/total.txt 
+  181  history > hist.txt
+  182  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  183  clear
+  184  cat results/results_2023/total.txt 
+  185  grep '\.2022' results/results_2023/total.txt 
+  186  nano results/results_2023/total.txt 
+  187  grep '^22' results/results_2023/total.txt 
+  188  awk '$2 ~ /^23/ && $4 > 50 {print $1, $2, $4;}' results/results_2023/total.txt 
+  189  awk '($2 ~ /^23/) && ($4 > 50) {print $1, $2, $4;}' results/results_2023/total.txt 
+  190  nano results/results_2023/total.txt 
+  191  awk '($2 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt 
+  192  awk '($1 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt 
+  193  history > hist.txt
+  194  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  195  grep "14\.03\.2024.*in_progress" results/results_2023/total.txt 
+  196  grep "14\.03\.2024.*in_progress" results/results_2023/total.txt | wc -l
+  197  history > hist.txt
+  198  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  199  nano skripta.sh
+  200  nano skripta.sh
+  201  chmod +x skripta.sh 
+  202  ./skripta.sh 
+  203  nano skripta.sh
+  204  ./skripta.sh 
+  205  clear
+  206  history > hist.txt
+  207  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  208  ls -l
+  209  rm skripta.sh 
+  210  clear
+  211  touch script.sh
+  212  nano script.sh 
+  213  chmod +x script.sh 
+  214  ./script.sh 5 7 15 8 22 6
+  215  nano script.sh 
+  216  nano script.sh 
+  217  ./script.sh 5 7 15 8 22 6
+  218  history > hist.txt
+  219  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  220  cat script.sh 
+  221  cat script.sh > fdfsa.txt
+  222  cat > zad2.txt
+  223  cat > zad3.txt
+  224  clear
+  225  cat > drugs.csv
+  226  clear
+  227  quit
+  228  exit
+  229  cd Desktop/
+  230  mkdir auditoriski
+  231  cd auditoriski/
+  232  nano alo.txt
+  233  ls -;
+  234  ls -l
+  235  clear
+  236  exit
+  237  cd D:
+  238  cd MARTIN/ФАКУЛТЕТ/2\ година/4\ семестар/ОС/
+  239  ls -l
+  240  cd Лабораториски/
+  241  ls -l
+  242  cd odDoma1/
+  243  ls -l
+  244  cd ..
+  245  cd ..
+  246  cd whenPuttyNotHere/
+  247  ls -l
+  248  clear
+  249  ls -l
+  250  cd ../Лабораториски/odDoma1/ | ls -l
+  251  cd ../Лабораториски/odDoma1/ 
+  252  ls -l
+  253  cat script.sh 
+  254  clear
+  255  cat script.sh 
+  256  ls -l
+  257  ls ../..
+  258  cd ../..
+  259  cd whenPuttyNotHere/
+  260  ls -l
+  261  mkdir skripti3
+  262  cd skripti3/
+  263  ls -l
+  264  touch z1.sh
+  265  nano z1.sh 
+  266  chmod +x z1.sh 
+  267  ./z1.sh 
+  268  ./z1.sh mv z1.sh primeri.sh
+  269  ls -l 
+  270  mv z1.sh primeri.sh
+  271  ls -l 
+  272  ./primeri.sh 
+  273  nano primeri.sh 
+  274  ./primeri.sh 
+  275  nano primeri.sh 
+  276  ./primeri.sh 
+  277  ls -l
+  278  touch file1.jgp
+  279  touch file2.jgp
+  280  ls -l
+  281  clear
+  282  ls -l
+  283  nano primeri.sh 
+  284  ls -l
+  285  clear
+  286  ./primeri.sh 
+  287  nano primeri.sh 
+  288  ls -l
+  289  rm *.jgp
+  290  touch file1.txt file2.txt
+  291  ./primeri.sh 
+  292  clear
+  293  nano primeri.sh 
+  294  nano primeri.sh 
+  295  ./primeri.sh 
+  296  clear
+  297  nano primeri.sh 
+  298  clear
+  299  ./primeri.sh 
+  300  nano primeri.sh 
+  301  ./primeri.sh 
+  302  nano primeri.sh 
+  303  ls ..
+  304  ls ../cuden_format/
+  305  ls ../..
+  306  ls ../../whenPuttyNotHere/
+  307  ls ../../New\ folder/
+  308  clear
+  309  ls ../../New\ folder/
+  310  "ls ../../New\ folder/" >> primeri.sh 
+  311  cat "ls ../../New\ folder/" >> primeri.sh 
+  312  cat "ls ../../New\ folder" >> primeri.sh 
+  313  clear
+  314  nano primeri.sh 
+  315  nano primeri.sh 
+  316  ./primeri.sh 
+  317  ls ../../New\ folder/
+  318  nano primeri.sh 
+  319  ./primeri.sh 
+  320  nano primeri.sh 
+  321  clear
+  322  nano primeri.sh 
+  323  ./primeri.sh 
+  324  nano primeri.sh 
+  325  ./primeri.sh 
+  326  nano primeri.sh 
+  327  ./primeri.sh 
+  328  nano primeri.sh 
+  329  nano zad3.sh
+  330  nano primeri.sh 
+  331  nano zad3.sh
+  332  nano primeri.sh 
+  333  nano zad3.sh
+  334  clear
+  335  nano zad3.sh
+  336  chmod +x zad3.sh 
+  337  ./zad3.sh 
+  338  nano zad3.sh 
+  339  ./zad3.sh 
+  340  nano zad5.sh
+  341  chmod +x zad
+  342  chmod +x zad5.sh 
+  343  ./zad5.sh 
+  344  nano zad
+  345  rm zaad
+  346  rm zad
+  347  nano zad5.sh 
+  348  ./zad5.sh 
+  349  nano zad5.sh 
+  350  ./zad5.sh 
+  351  nano zad5.sh 
+  352  ./zad5.sh 10
+  353  clear
+  354  nano zad6.sh
+  355  chmod +x zad6.sh 
+  356  ./zad6.sh 
+  357  clear
+  358  nano zad6.sh
+  359  ./zad6.sh 
+  360  nano zad6.sh
+  361  nano zad6.sh
+  362  ./zad6.sh 
+  363  nano zad6.sh
+  364  ./zad6.sh 
+  365  clear
+  366  ls -l
+  367  clear
+  368  ls -l
+  369  rm file*.txt
+  370  ls -l
+  371  ls -l
+  372  nano zad7.sh
+  373  chmod +x zad7.sh 
+  374  ./zad7.sh 
+  375  ls ..
+  376  ./zad7.sh ../cuden_format/
+  377  ./zad7.sh ../cuden_format/
+  378  clear
+  379  nano zad8.sh
+  380  clear
+  381  chmod +x zad8.sh 
+  382  ./zad8.sh 
+  383  clear
+  384  ls -l
+  385  touch zad1.jpg zad2.jpg
+  386  ./zad8.sh 
+  387  ./zad8.sh ren 'jpg$' 'txt' *.jpg
+  388  nano zad8.sh
+  389  ./zad8.sh ren 'jpg$' 'txt' *.jpg
+  390  nano zad8.sh
+  391  ./zad8.sh ren 'jpg$' 'txt' *.jpg
+  392  zad8.sh ren 'jpg$' 'txt' *.jpg
+  393  ./zad8.sh ren 'jpg$' 'txt' *.jpg
+  394  clear
+  395  cat zad8.sh 
+  396  cat zad8.sh > fajl.txt
+  397  nano zad8.sh
+  398  ./zad8.sh ren 'jpg$' 'txt' *.jpg
+  399  nano zad8.sh
+  400  clear
+  401  nano zad9.sh
+  402  chmod +x zad9.sh 
+  403  nano zad9.sh
+  404  ./zad9.sh 
+  405  nano zad9.sh
+  406  nano zad10.sh
+  407  mv zad10.sh zad11.sh
+  408  chmod +x zad11.sh 
+  409  ls -l
+  410  rm zad*.jpg
+  411  ls -l
+  412  clear
+  413  nano zad11
+  414  nano zad11.sh 
+  415  chmod +x zad11.sh 
+  416  ./zad11.sh 
+  417  touch 1.txt 2.txt 3.txt
+  418  ./zad11.sh 
+  419  nano zad11.sh 
+  420  ./zad11.sh 
+  421  clear
+  422  ./zad11.sh 
+  423  clear
+  424  nano zad12.sh
+  425  chmod +x zad12.sh 
+  426  ./zad12.sh 
+  427  nano zad13.sh
+  428  chmod +x zad13.sh 
+  429  ./zad13.sh 
+  430  nano zad13.sh
+  431  touch sh2.sh
+  432  nano sh2.sh 
+  433  chmod +x sh2.sh 
+  434  ./sh2.sh 
+  435  netstat
+  436  clear
+  437  mkdir directory001
+  438  touch directory001/file123
+  439  man cat
+  440  clear
+  441  ls -l
+  442  chmod 660 directory001/file123 
+  443  ls -l directory001/
+  444  clear
+  445  chmod ug=rw,o= directory001/file123 
+  446  ls -l directory001/
+  447  clear
+  448  who
+  449  ls -l
+  450  history
+  451  [200~history > hist.txt
+  452  history > hist.txt
+  453  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  454  clear
+  455  mkdir results
+  456  mkdir directory002/
+  457  mv directory001/file123 directory002/file234
+  458  rm -r directory001/
+  459  history > hist.txt
+  460  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  461  rm results/
+  462  rm -r results/
+  463  clear
+  464  mkdir results
+  465  touch results/OS1.txt results/OS2.txt
+  466  nano results/OS1.txt 
+  467  nano results/OS2.txt 
+  468  cd results/
+  469  cat OS1.txt 
+  470  cat OS2.txt 
+  471  cat OS1.txt OS2.txt 
+  472  clear
+  473  cat OS1.txt OS2.txt > total.txt
+  474  mkdir results_2023
+  475  mv total.txt results_2023/
+  476  mv results_2023/total.txt total.txt
+  477  mv total.txt results_2023/
+  478  wc tot
+  479  wc results_2023/total.txt 
+  480  cat results_2023/total.txt 
+  481  grep '^23' results_2023/total.txt 
+  482  awk '($1 == /^21/) && ($5 == "submitted") {$1, $2, $3;}' results_2023/total.txt 
+  483  awk '($1 == /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt 
+  484  awk '($1 == /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt 
+  485  awk '($1 == /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt
+  486  awk '($1 ~ /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt
+  487  cat results_2023/total.txt 
+  488  awk '($4 == "groupA" ) && ($5 == "submitted") && {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt | wc -l
+  489  awk '($4 == "groupA" ) && ($5 == "submitted") {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt | wc -l
+  490  awk '($4 == "groupA" ) && ($5 == "submitted") {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt
+  491  awk '($4 == "groupA" ) && ($5 == "submitted") {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt | wc -l
+  492  clear
+  493  history > hist.txt
+  494  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+  495  cd ..
+  496  nano zad3.sh
+  497  chmod +x zad3.sh 
+  498  ./zad3.sh 
+  499  ./zad3.sh kod.txt
+  500  cat kod.txt
+  501  history > hist.txt

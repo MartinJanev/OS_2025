@@ -1,0 +1,72 @@
+    1  clear
+    2  cat results/OS1.txt 
+    3  cat results/OS2.txt 
+    4  cat results/OS1.txt results/
+    5  cat results/OS1.txt results/OS2.txt 
+    6  clear
+    7  history
+    8  history > 223.txt
+    9  awk '{$1=""; print substr($0, 2)}' 223.txt > zadaci1.txt
+   10  historu
+   11  history
+   12  clear
+   13  ls -;
+   14  ls -l
+   15  cd results/
+   16  cd ..
+   17  cat results/OS1.txt results/OS2.txt 
+   18  cat results/OS1.txt results/OS2.txt 
+   19  nano results/OS1.txt 
+   20  nano results/OS2.txt 
+   21  nano results/OS2.txt 
+   22  cat results/OS1.txt results/OS2.txt 
+   23  cat results/OS1.txt results/OS2.txt > total.txt
+   24  cat total.txt 
+   25  clear
+   26  history
+   27  history > hist.txt
+   28  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+   29  mv total.txt results/results_2023/
+   30  cd results/
+   31  mkdir results_2023
+   32  cd ..
+   33  mv total.txt results/results_2023/
+   34  wc results/results_2023/total.txt 
+   35  history > hist.txt
+   36  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+   37  clear
+   38  cat results/results_2023/total.txt 
+   39  grep '\.2022' results/results_2023/total.txt 
+   40  nano results/results_2023/total.txt 
+   41  grep '^22' results/results_2023/total.txt 
+   42  awk '$2 ~ /^23/ && $4 > 50 {print $1, $2, $4;}' results/results_2023/total.txt 
+   43  awk '($2 ~ /^23/) && ($4 > 50) {print $1, $2, $4;}' results/results_2023/total.txt 
+   44  nano results/results_2023/total.txt 
+   45  awk '($2 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt 
+   46  awk '($1 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt 
+   47  history > hist.txt
+   48  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+   49  grep "14\.03\.2024.*in_progress" results/results_2023/total.txt 
+   50  grep "14\.03\.2024.*in_progress" results/results_2023/total.txt | wc -l
+   51  history > hist.txt
+   52  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+   53  nano skripta.sh
+   54  nano skripta.sh
+   55  chmod +x skripta.sh 
+   56  ./skripta.sh 
+   57  nano skripta.sh
+   58  ./skripta.sh 
+   59  clear
+   60  history > hist.txt
+   61  awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+   62  ls -l
+   63  rm skripta.sh 
+   64  clear
+   65  touch script.sh
+   66  nano script.sh 
+   67  chmod +x script.sh 
+   68  ./script.sh 5 7 15 8 22 6
+   69  nano script.sh 
+   70  nano script.sh 
+   71  ./script.sh 5 7 15 8 22 6
+   72  history > hist.txt

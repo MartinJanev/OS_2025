@@ -1,0 +1,500 @@
+git log --oneline --graph --all
+git checkout
+git branch
+git checkout master
+git branch
+git pull
+git checkout 8-mark-a-task-as-completed-by-name
+nano SI2025Lab1Main.java
+nano SI2025Lab1Main.java
+git add .
+git commit -m "Implement task 8"
+git push -u origin master
+git push -u origin 8-mark-a-task-as-completed-by-name
+history
+git checkout 9-mark-all-tasks-in-a-category-as-completed
+[200~git add .
+git commit -m
+git commit -m "Implement task 9"
+git push -u origin 9-mark-all-tasks-in-a-category-as-completed
+cd D:
+cd MARTIN/ФАКУЛТЕТ/2\ година/4\ семестар/СИ/SI_2025_lab1_236040/
+git init
+history
+clear
+git remote add origin https://github.com/MartinJanev/SI_2025_lab1_236040.git
+git branch -M master
+clear
+nano README.md
+git add .
+git commit -m "Initial commit"
+ls -l
+git add .
+git commit -m "Add starter coed"
+git reset --soft HEAD^
+git log
+ls
+git add .
+git commit -m "Add starter code"
+git push -u origin master
+git fetch origin
+git git checkout 7-count-tasks-per-category
+git checkout 7-count-tasks-per-category
+git add .
+git commit -m "Implement task 7"
+git push -u origin 7-count-tasks-per-category
+git checkout 8-mark-a-task-as-completed-by-name
+git add .
+git commit -m "Implement task 8"
+git push -u origin 8-mark-a-task-as-completed-by-name
+git checkout 9-mark-all-tasks-in-a-category-as-completed
+git add .
+git commit -m "Implement task 9"
+git push -u origin 9-mark-all-tasks-in-a-category-as-completed
+git checkout master
+git pull origin master
+git merge 8-mark-a-task-as-completed-by-name
+git add .
+git commit -m "Merge branch 8-mark-a-task-completed-by-name"
+git push -u origin master
+git log --oneline --graph --all
+git log --oneline --graph --all > logs.txt
+history
+git remote -v
+ls -l
+git log --oneline -graph -all
+git log --oneline --graph --all
+cleat
+clear
+git log --oneline --graph --all
+git log --oneline --graph --all
+clear
+git status
+git add .
+git status
+git commit -m "Final commit"
+git push -u origin master
+cd ..
+git clone https://github.com/MartinJanev/SI_2025_lab1_236040.git
+git clone https://github.com/MartinJanev/SI_2025_lab1_151020.git
+cd SI_2025_lab1_
+cd SI_2025_lab1_151020/
+ls -l
+clear
+touch 236040.txt
+"Martin Janev" > 236040.txt
+echo "Martin Janev" > 236040.txt
+nano 236040.txt
+git add .
+git commit -m "Add file"
+git push -u origin master
+clear
+mkdir directory1 directory
+touch directory1/file123
+man ls
+ls -l
+chmod ug=rx, o= directory1/file123
+chmod u=rx,g=rx, o= directory1/file123
+chmod --help
+chmod u=rx,g=rx,o= directory1/file123
+ls -l
+cd directory1/file123
+cd directory1/
+ls -l
+mkdir directory1 directory2
+touch directory1/file123
+man ls
+chmod u=rx,g=rx,o= directory1/file123
+cd directory1/
+ls -l
+clear
+cd ..
+chmod 550 directory1/file123
+ls -l
+ls -l directory1/
+clear
+who
+mv directory1/file123 directory2/file234
+rm -r directory1
+ls -l
+clear
+history
+history > zad1.tct
+history > zad1.txt
+cd ..
+ls -l
+awk '{print;}' zad1.txt
+awk '{print $2;}' zad1.txt
+awk '{print $2;}' zad1.txt > zad1.txt
+awk '{print $2;}' zad1.txt > zad1.txt
+awk '{print $2;}' zad1.txt
+history > zad1.txt
+awk '{print $2;}' zad1.txt
+awk '{print $2;}' zad1.txt > zad2.txt
+history
+history > zad3.txt
+awk '{$1=""; print substr($0, 2)}' zad1.txt
+awk '{$1=""; print substr($0, 2)}' zad1.txt > zadaci.txt
+history
+awk '{$1=""; print substr($0, 2)}' zad1.txt > zadaci.txt
+awk '{$1=""; print substr($0, 2)}' zadaci.txt > zadaci1.txt
+history
+history > zadaci.txt
+awk '{$1=""; print substr($0, 2)}' zadaci.txt > zadaci1.txt
+history > zadaci.txt
+awk '{$1=""; print substr($0, 2)}' zadaci.txt > zadaci1.txt
+clear
+cat results/OS1.txt
+cat results/OS2.txt
+cat results/OS1.txt results/
+cat results/OS1.txt results/OS2.txt
+clear
+history
+history > 223.txt
+awk '{$1=""; print substr($0, 2)}' 223.txt > zadaci1.txt
+historu
+history
+clear
+ls -;
+ls -l
+cd results/
+cd ..
+cat results/OS1.txt results/OS2.txt
+cat results/OS1.txt results/OS2.txt
+nano results/OS1.txt
+nano results/OS2.txt
+nano results/OS2.txt
+cat results/OS1.txt results/OS2.txt
+cat results/OS1.txt results/OS2.txt > total.txt
+cat total.txt
+clear
+history
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+mv total.txt results/results_2023/
+cd results/
+mkdir results_2023
+cd ..
+mv total.txt results/results_2023/
+wc results/results_2023/total.txt
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+clear
+cat results/results_2023/total.txt
+grep '\.2022' results/results_2023/total.txt
+nano results/results_2023/total.txt
+grep '^22' results/results_2023/total.txt
+awk '$2 ~ /^23/ && $4 > 50 {print $1, $2, $4;}' results/results_2023/total.txt
+awk '($2 ~ /^23/) && ($4 > 50) {print $1, $2, $4;}' results/results_2023/total.txt
+nano results/results_2023/total.txt
+awk '($2 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt
+awk '($1 ~ /^23/) && ($4 > 50.0) {print $1, $2, $4;}' results/results_2023/total.txt
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+grep "14\.03\.2024.*in_progress" results/results_2023/total.txt
+grep "14\.03\.2024.*in_progress" results/results_2023/total.txt | wc -l
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+nano skripta.sh
+nano skripta.sh
+chmod +x skripta.sh
+./skripta.sh
+nano skripta.sh
+./skripta.sh
+clear
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+ls -l
+rm skripta.sh
+clear
+touch script.sh
+nano script.sh
+chmod +x script.sh
+./script.sh 5 7 15 8 22 6
+nano script.sh
+nano script.sh
+./script.sh 5 7 15 8 22 6
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+cat script.sh
+cat script.sh > fdfsa.txt
+cat > zad2.txt
+cat > zad3.txt
+clear
+cat > drugs.csv
+clear
+quit
+exit
+cd Desktop/
+mkdir auditoriski
+cd auditoriski/
+nano alo.txt
+ls -;
+ls -l
+clear
+exit
+cd D:
+cd MARTIN/ФАКУЛТЕТ/2\ година/4\ семестар/ОС/
+ls -l
+cd Лабораториски/
+ls -l
+cd odDoma1/
+ls -l
+cd ..
+cd ..
+cd whenPuttyNotHere/
+ls -l
+clear
+ls -l
+cd ../Лабораториски/odDoma1/ | ls -l
+cd ../Лабораториски/odDoma1/
+ls -l
+cat script.sh
+clear
+cat script.sh
+ls -l
+ls ../..
+cd ../..
+cd whenPuttyNotHere/
+ls -l
+mkdir skripti3
+cd skripti3/
+ls -l
+touch z1.sh
+nano z1.sh
+chmod +x z1.sh
+./z1.sh
+./z1.sh mv z1.sh primeri.sh
+ls -l
+mv z1.sh primeri.sh
+ls -l
+./primeri.sh
+nano primeri.sh
+./primeri.sh
+nano primeri.sh
+./primeri.sh
+ls -l
+touch file1.jgp
+touch file2.jgp
+ls -l
+clear
+ls -l
+nano primeri.sh
+ls -l
+clear
+./primeri.sh
+nano primeri.sh
+ls -l
+rm *.jgp
+touch file1.txt file2.txt
+./primeri.sh
+clear
+nano primeri.sh
+nano primeri.sh
+./primeri.sh
+clear
+nano primeri.sh
+clear
+./primeri.sh
+nano primeri.sh
+./primeri.sh
+nano primeri.sh
+ls ..
+ls ../cuden_format/
+ls ../..
+ls ../../whenPuttyNotHere/
+ls ../../New\ folder/
+clear
+ls ../../New\ folder/
+"ls ../../New\ folder/" >> primeri.sh
+cat "ls ../../New\ folder/" >> primeri.sh
+cat "ls ../../New\ folder" >> primeri.sh
+clear
+nano primeri.sh
+nano primeri.sh
+./primeri.sh
+ls ../../New\ folder/
+nano primeri.sh
+./primeri.sh
+nano primeri.sh
+clear
+nano primeri.sh
+./primeri.sh
+nano primeri.sh
+./primeri.sh
+nano primeri.sh
+./primeri.sh
+nano primeri.sh
+nano zad3.sh
+nano primeri.sh
+nano zad3.sh
+nano primeri.sh
+nano zad3.sh
+clear
+nano zad3.sh
+chmod +x zad3.sh
+./zad3.sh
+nano zad3.sh
+./zad3.sh
+nano zad5.sh
+chmod +x zad
+chmod +x zad5.sh
+./zad5.sh
+nano zad
+rm zaad
+rm zad
+nano zad5.sh
+./zad5.sh
+nano zad5.sh
+./zad5.sh
+nano zad5.sh
+./zad5.sh 10
+clear
+nano zad6.sh
+chmod +x zad6.sh
+./zad6.sh
+clear
+nano zad6.sh
+./zad6.sh
+nano zad6.sh
+nano zad6.sh
+./zad6.sh
+nano zad6.sh
+./zad6.sh
+clear
+ls -l
+clear
+ls -l
+rm file*.txt
+ls -l
+ls -l
+nano zad7.sh
+chmod +x zad7.sh
+./zad7.sh
+ls ..
+./zad7.sh ../cuden_format/
+./zad7.sh ../cuden_format/
+clear
+nano zad8.sh
+clear
+chmod +x zad8.sh
+./zad8.sh
+clear
+ls -l
+touch zad1.jpg zad2.jpg
+./zad8.sh
+./zad8.sh ren 'jpg$' 'txt' *.jpg
+nano zad8.sh
+./zad8.sh ren 'jpg$' 'txt' *.jpg
+nano zad8.sh
+./zad8.sh ren 'jpg$' 'txt' *.jpg
+zad8.sh ren 'jpg$' 'txt' *.jpg
+./zad8.sh ren 'jpg$' 'txt' *.jpg
+clear
+cat zad8.sh
+cat zad8.sh > fajl.txt
+nano zad8.sh
+./zad8.sh ren 'jpg$' 'txt' *.jpg
+nano zad8.sh
+clear
+nano zad9.sh
+chmod +x zad9.sh
+nano zad9.sh
+./zad9.sh
+nano zad9.sh
+nano zad10.sh
+mv zad10.sh zad11.sh
+chmod +x zad11.sh
+ls -l
+rm zad*.jpg
+ls -l
+clear
+nano zad11
+nano zad11.sh
+chmod +x zad11.sh
+./zad11.sh
+touch 1.txt 2.txt 3.txt
+./zad11.sh
+nano zad11.sh
+./zad11.sh
+clear
+./zad11.sh
+clear
+nano zad12.sh
+chmod +x zad12.sh
+./zad12.sh
+nano zad13.sh
+chmod +x zad13.sh
+./zad13.sh
+nano zad13.sh
+touch sh2.sh
+nano sh2.sh
+chmod +x sh2.sh
+./sh2.sh
+netstat
+clear
+mkdir directory001
+touch directory001/file123
+man cat
+clear
+ls -l
+chmod 660 directory001/file123
+ls -l directory001/
+clear
+chmod ug=rw,o= directory001/file123
+ls -l directory001/
+clear
+who
+ls -l
+history
+[200~history > hist.txt
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+clear
+mkdir results
+mkdir directory002/
+mv directory001/file123 directory002/file234
+rm -r directory001/
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+rm results/
+rm -r results/
+clear
+mkdir results
+touch results/OS1.txt results/OS2.txt
+nano results/OS1.txt
+nano results/OS2.txt
+cd results/
+cat OS1.txt
+cat OS2.txt
+cat OS1.txt OS2.txt
+clear
+cat OS1.txt OS2.txt > total.txt
+mkdir results_2023
+mv total.txt results_2023/
+mv results_2023/total.txt total.txt
+mv total.txt results_2023/
+wc tot
+wc results_2023/total.txt
+cat results_2023/total.txt
+grep '^23' results_2023/total.txt
+awk '($1 == /^21/) && ($5 == "submitted") {$1, $2, $3;}' results_2023/total.txt
+awk '($1 == /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt
+awk '($1 == /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt
+awk '($1 == /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt
+awk '($1 ~ /^21/) && ($5 == "submitted") {print $1, $2, $3;}' results_2023/total.txt
+cat results_2023/total.txt
+awk '($4 == "groupA" ) && ($5 == "submitted") && {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt | wc -l
+awk '($4 == "groupA" ) && ($5 == "submitted") {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt | wc -l
+awk '($4 == "groupA" ) && ($5 == "submitted") {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt
+awk '($4 == "groupA" ) && ($5 == "submitted") {split($3, time, ":"); if (time[1] < 30) print $0;}' results_2023/total.txt | wc -l
+clear
+history > hist.txt
+awk '{$1=""; print substr($0, 2)}' hist.txt > zadaci1121211.txt
+cd ..
+nano zad3.sh
+chmod +x zad3.sh
+./zad3.sh
+./zad3.sh kod.txt
+cat kod.txt
+history > hist.txt

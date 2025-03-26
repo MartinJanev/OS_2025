@@ -1,0 +1,16 @@
+mkdir directory1 directory2
+
+touch directory1/file123
+
+man ls
+
+chmod ug=rx,o= directory1/file123
+
+chmod 550 directory1/file123
+
+who
+
+mv directory1/file123 directory2/file234
+
+rm -r directory1
+
