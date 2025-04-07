@@ -1,0 +1,15 @@
+./2.txt
+./dopolnitelni_baranja onelineri.txt
+./dopSkr.sh
+./drugs.csv
+./last.txt
+./ListaKorisnici.txt
+./rental_sys.txt
+./skripta_so_ipAddr.sh
+./students.csv
+./temp.txt
+./vezba1_stari.sh
+./wSkripta.sh
+./x.txt
+./Лаб2/lol.sh
+./Лаб2/rek.sh

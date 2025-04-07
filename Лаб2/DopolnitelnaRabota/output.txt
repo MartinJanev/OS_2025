@@ -1,0 +1,75 @@
+Exam Scores Analysis
+-------------------
+Total number of Students: 10
+
+  Math:    84.60
+  Science: 86.70
+  English: 83.20
+  History: 85.60
+
+Subjects Extreme Performers:
+  Math - Highest: Ethan Hunt (Score: 92), Lowest: Charlie Brown (Score: 75)
+  Science - Highest: Alice Johnson (Score: 92), Lowest: Charlie Brown (Score: 80)
+  English - Highest: Hannah Lee (Score: 94), Lowest: Ethan Hunt (Score: 75)
+  History - Highest: Charlie Brown (Score: 95), Lowest: Fiona Wells (Score: 76)
+
+Top Overall Performer: 
+  Bob Smith (Total Score: 346)
+
+Grade Distribution - Math:
+  A: 3
+  B: 4
+  C: 3
+
+
+Sorted Students by Math:
+	Alice Johnson 	(85)
+	Bob Smith 	(90)
+	Charlie Brown 	(75)
+	Diana Prince 	(88)
+	Ethan Hunt 	(92)
+	Fiona Wells 	(79)
+	George Kim 	(83)
+	Hannah Lee 	(76)
+	Ian Carter 	(91)
+	Julia Wong 	(87)
+
+----------------------------------------------------------------------
+
+Exam Scores Analysis
+-------------------
+Total number of Students: 10
+
+  Math:    84.60
+  Science: 86.70
+  English: 83.20
+  History: 85.60
+
+Subjects Extreme Performers:
+  Math - Highest: Ethan Hunt (Score: 92), Lowest: Charlie Brown (Score: 75)
+  Science - Highest: Alice Johnson (Score: 92), Lowest: Charlie Brown (Score: 80)
+  English - Highest: Hannah Lee (Score: 94), Lowest: Ethan Hunt (Score: 75)
+  History - Highest: Charlie Brown (Score: 95), Lowest: Fiona Wells (Score: 76)
+
+Top Overall Performer: 
+  Bob Smith (Total Score: 346)
+
+Grade Distribution - Science:
+  A: 3
+  B: 7
+
+
+Sorted Students by Science:
+	Alice Johnson 	(92)
+	Bob Smith 	(85)
+	Charlie Brown 	(80)
+	Diana Prince 	(91)
+	Ethan Hunt 	(87)
+	Fiona Wells 	(84)
+	George Kim 	(89)
+	Hannah Lee 	(83)
+	Ian Carter 	(86)
+	Julia Wong 	(90)
+
+----------------------------------------------------------------------
+

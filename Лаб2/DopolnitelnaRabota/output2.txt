@@ -1,0 +1,30 @@
+Exam Scores Analysis
+-------------------
+Total number of Students: 13
+
+  Math:    84.31
+  Science: 86.46
+  English: 83.62
+  History: 86.00
+
+Subjects Extreme Performers:
+  Math - Highest:   (Score: ), Lowest:   (Score: )
+  Science - Highest:   (Score: ), Lowest:   (Score: )
+  English - Highest:   (Score: ), Lowest:   (Score: )
+  History - Highest:   (Score: ), Lowest:   (Score: )
+
+Top Overall Performer: 
+  Bob Smith (Total Score: 346)
+
+Grade Distribution - Math:
+  A: 1
+  B: 1
+  C: 1
+
+
+Sorted Students by Math:
+	Alice Johnson (85)
+	Bob Smith (90)
+	Charlie Brown (75)
+
+----------------------------------------------------------------------

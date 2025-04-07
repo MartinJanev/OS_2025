@@ -1,0 +1,52 @@
+[
+    {
+        "filepath": "audio/file1.mp3",
+        "duration": "3:45",
+        "filesize": "4.5MB"
+    },
+    {
+        "filepath": "audio/file2.wav",
+        "duration": "5:20",
+        "filesize": "10.2MB"
+    },
+    {
+        "filepath": "audio/file3.ogg",
+        "duration": "2:15",
+        "filesize": "3.1MB"
+    },
+    {
+        "filepath": "audio/file4.flac",
+        "duration": "4:30",
+        "filesize": "8.7MB"
+    },
+    {
+        "filepath": "audio/file5.aac",
+        "duration": "6:10",
+        "filesize": "12.4MB"
+    },
+    {
+        "filepath": "audio/file6.mp3",
+        "duration": "1:50",
+        "filesize": "2.9MB"
+    },
+    {
+        "filepath": "audio/file7.wav",
+        "duration": "7:25",
+        "filesize": "15.3MB"
+    },
+    {
+        "filepath": "audio/file8.ogg",
+        "duration": "3:05",
+        "filesize": "4.1MB"
+    },
+    {
+        "filepath": "audio/file9.flac",
+        "duration": "5:45",
+        "filesize": "11.8MB"
+    },
+    {
+        "filepath": "audio/file10.aac",
+        "duration": "2:30",
+        "filesize": "3.5MB"
+    }
+]
