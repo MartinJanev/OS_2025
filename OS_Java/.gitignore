@@ -3,6 +3,9 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+os-24-25-main
+OS_24_25-main
+
 ### Eclipse ###
 .apt_generated
 .classpath
