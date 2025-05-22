@@ -7,6 +7,7 @@ public class MaxMin {
     static int[][] matrix = new int[ROWS][COLS];
     static int[] rowMins = new int[ROWS];
     static int[] rowMaxs = new int[ROWS];
+    static int globalCount = 0;
 
     public static void main(String[] args) throws InterruptedException {
         Random rand = new Random();
@@ -16,6 +17,13 @@ public class MaxMin {
             for (int j = 0; j < COLS; j++) {
                 matrix[i][j] = rand.nextInt(10000);
             }
+        }
+
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLS; j++) {
+                System.out.print(matrix[i][j]+" ");
+            }
+            System.out.println();
         }
 
         // Semaphore to limit to 10 concurrent threads
@@ -31,12 +39,15 @@ public class MaxMin {
                     // Acquire a permit before proceeding (limit to 10 threads)
                     semaphore.acquire();
 
+                    int localCount = 0;
                     int localMin = Integer.MAX_VALUE;
                     int localMax = Integer.MIN_VALUE;
                     for (int val : matrix[row]) {
                         if (val < localMin) localMin = val;
                         if (val > localMax) localMax = val;
+                        if (val % 2 == 0) localCount++;
                     }
+                    globalCount += localCount;
                     rowMins[row] = localMin;
                     rowMaxs[row] = localMax;
 
@@ -61,5 +72,6 @@ public class MaxMin {
 
         System.out.println("Global Min: " + globalMin);
         System.out.println("Global Max: " + globalMax);
+        System.out.println("Count of even numbers: " + globalCount);
     }
 }

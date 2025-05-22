@@ -5,6 +5,9 @@ out/
 
 os-24-25-main
 OS_24_25-main
+src/Networking/Lab5/*
+src/Networking/as/*
+src/Networking/Nenad/*
 
 ### Eclipse ###
 .apt_generated
