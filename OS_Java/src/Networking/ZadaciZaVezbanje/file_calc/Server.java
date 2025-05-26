@@ -1,4 +1,4 @@
-package Networking.file_calc;
+package Networking.ZadaciZaVezbanje.file_calc;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -21,8 +21,8 @@ public class Server extends Thread {
         try {
             serverSocket = new ServerSocket(port);
             Socket socket = null;
-            //Wait for a client to connect and send to the worker class
 
+            //Wait for a client to connect and send to the worker class
             while (true) {
                 socket = serverSocket.accept();
                 new Worker(socket, totalLinesFilepath, aggregatedFilepath).start();
@@ -42,7 +42,9 @@ public class Server extends Thread {
     }
 
     public static void main(String[] args) {
-        Server server = new Server(8081, "Networking/file_calc/data/total_lines.bin", "Networking/file_calc/data/aggregated.txt");
+        Server server = new Server(8081,
+                "Networking/file_calc/data/total_lines.bin",
+                "Networking/file_calc/data/aggregated.txt");
         server.start(); //Start the server
     }
 }

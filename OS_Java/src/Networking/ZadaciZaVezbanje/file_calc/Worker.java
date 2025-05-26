@@ -1,4 +1,4 @@
-package Networking.file_calc;
+package Networking.ZadaciZaVezbanje.file_calc;
 
 
 import java.io.*;
@@ -31,6 +31,7 @@ public class Worker extends Thread {
 
         //Then we need to create a file reader for the total lines file and aggregated file
         BufferedWriter aggregatedFileWrite = null;
+        //We use RandomAccessFile to read and write the total lines file
         RandomAccessFile raf = null;
 
         try {
@@ -41,9 +42,10 @@ public class Worker extends Thread {
             //Then we need to create a file reader for the aggregated file
             aggregatedFileWrite = new BufferedWriter(new FileWriter(aggregatedFilepath, true));
 
-            //Then we need to create a file reader for the total lines file - rw to read and write
-            //It is important for new File because without it  does not show error
-            //but it is wrong
+            //Then we need to create a file reader for the total lines file
+            //rw to read and write
+            //It is important!!!!! for --new-- File because without it does not show error
+            //it is wrong however
             raf = new RandomAccessFile(new File(totalLinesFilepath), "rw");
 
             String line;
@@ -70,6 +72,7 @@ public class Worker extends Thread {
             //4. Receive files from client and process them
 
             //Read the first line from the file, bit ignore 1 row for actual data later
+            //prviot red e problem, treba da se ignorira
             socketReader.readLine();
             //Next we need to read the file line by line
             int totalLinesFromFile = 0;
@@ -88,17 +91,22 @@ public class Worker extends Thread {
 
             //totalLinesFromFile vo binaryFile --> poeni za kolku studenti
 
-            int totalPoints = 0;
+//            int totalPoints = 0;
             int totalLines = 0;
 
             lock.lock();
 
-            totalLines = raf.readInt(); // procitam od datoteka brojka
-            raf.seek(0); // za da se vrati na pocetok na datoteka
-            raf.writeInt(totalLines + totalLinesFromFile); // zapišuvam vo datoteka
+            //1. Read the integer from the total lines file
+            //2. Retuen the file pointer to the beginning of the file, so that
+            //we can write the new value
+            //3. Write the new value to the file
+
+            totalLines = raf.readInt();
+            raf.seek(0);
+            raf.writeInt(totalLines + totalLinesFromFile);
 
             lock.unlock();
-            //prviot red e problem, treba da se ignorira
+
 
         } catch (IOException e) {
             throw new RuntimeException(e);

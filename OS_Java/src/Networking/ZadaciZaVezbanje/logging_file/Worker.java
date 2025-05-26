@@ -1,4 +1,4 @@
-package Networking.logging_file;
+package Networking.ZadaciZaVezbanje.logging_file;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

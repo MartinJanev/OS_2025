@@ -1,4 +1,4 @@
-package Networking.Ispitni.Juni2024;
+package Networking.ZadaciZaVezbanje.Juni2024;
 
 import java.io.BufferedReader;
 import java.io.IOException;

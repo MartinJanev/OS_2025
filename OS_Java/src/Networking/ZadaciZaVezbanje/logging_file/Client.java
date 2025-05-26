@@ -1,4 +1,4 @@
-package Networking.logging_file;
+package Networking.ZadaciZaVezbanje.logging_file;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,8 +10,8 @@ import java.net.Socket;
 
 public class Client extends Thread {
     private int serverPort;
-    private String serverName; 
-    
+    private String serverName;
+
     Client(int serverPort, String serverName) {
         this.serverPort = serverPort;
         this.serverName = serverName;
@@ -24,23 +24,25 @@ public class Client extends Thread {
         BufferedWriter socketWriter = null;
 
         try {
-           socket = new Socket(InetAddress.getByName(this.serverName), this.serverPort);
-           socketReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-           socketWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-            
+            socket = new Socket(InetAddress.getByName(this.serverName), this.serverPort);
+            //SocketReader == citanje od Server
+            socketReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            //SocketWriter == isprakjac na Server
+            socketWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
-           socketWriter.write("GET / HTTP/1.1\n");
-           socketWriter.write("Host: developer.mozilla.org\n");
-           socketWriter.write("User-Agent: OSClient\n");
-           socketWriter.write("\n");
-           socketWriter.flush();
 
-           String line;
-           while (!(line = socketReader.readLine()).isEmpty()) {
-            System.out.println("Client received: " + line);
-           }
+            socketWriter.write("GET / HTTP/1.1\n");
+            socketWriter.write("Host: developer.mozilla.org\n");
+            socketWriter.write("User-Agent: OSClient\n");
+            socketWriter.write("\n");
+            socketWriter.flush();
 
-           
+            String line;
+            while (!(line = socketReader.readLine()).isEmpty()) {
+                System.out.println("Client received: " + line);
+            }
+
+
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -83,5 +85,5 @@ public class Client extends Thread {
         client.start();
     }
 
-    
+
 }

@@ -1,4 +1,4 @@
-package Networking.file_calc;
+package Networking.ZadaciZaVezbanje.file_calc;
 
 import java.io.*;
 import java.net.InetAddress;

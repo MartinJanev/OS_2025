@@ -1,0 +1,44 @@
+version: "3.8"
+services:
+  java-app:
+    build: 
+      context: ./application
+      dockerfile: Dockerfile
+    ports:
+    - "80:80"
+    networks:
+      - data-network
+      - cache-network
+    depends_on:
+      - mongo-service
+      - cache
+  mongo-service:
+  image: mongo
+  environment:
+    MONGO_INITDB_ROOT_USERNAME: root
+    MONGO_INITDB_ROOT_PASSWORD: example
+    MONGO_INITDB_DATABASE: mydatabase
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+      -  ./init-database/init.js:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - data-network
+  cache:
+    image: memecached:1.6.27
+    ports:
+      - "11211:11211"
+    volumes:
+    - memecached-data: /var/lib/memcached
+    networks:
+      - cache-network
+  networks:
+    data-network:
+      driver: bridge
+    cache-network:
+      driver: bridge
+volumes:
+  mongo-data: {}
+  memecached-data: {}
+  

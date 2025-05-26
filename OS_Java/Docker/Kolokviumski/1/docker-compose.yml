@@ -1,0 +1,49 @@
+version: "version 3.0"
+services:
+  backend_1:
+    build: ./server
+    environment:
+      - PORT=5050
+    networks:
+      - loadbalancing
+  backend_2:
+    build: ./server
+    environment:
+      - PORT=5050
+    networks:
+      - loadbalancing
+  backend_3:
+    build: ./server
+    environment:
+      - PORT=5050
+    networks:
+      - loadbalancing
+  backend_4:
+    build: ./server
+    environment:
+      - PORT=5050
+    networks:
+      - loadbalancing
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    networks:
+      - loadbalancing
+    depends_on:
+      - backend_1
+      - backend_2
+      - backend_3
+      - backend_4
+  client:
+    image: ubuntu:latest
+    networks:
+      - loadbalancing
+    depends_on:
+      - nginx
+    command: ["bash", "-c", "apt-get update && apt-get install -y && \
+      while true; do curl -s /dev/null http://nginx; sleep 1; done"]
+
+networks:
+  loadbalancing:
